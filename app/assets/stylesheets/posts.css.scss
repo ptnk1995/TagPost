@@ -1,0 +1,56 @@
+.tags-cloud {
+  margin-top: 16px;
+  padding: 14px;
+}
+
+.top-pad {
+  padding: 25px;
+}
+.glassy-bg{
+  box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15);
+  background: white;
+  border-radius: 4px;
+  padding-bottom: 12px;
+}
+
+.mt{
+  margin-top: 10px;
+}
+.mb{
+  margin-bottom: 10px;
+}
+
+.pt{
+  padding-top: 10px;
+}
+.pb{
+  padding-bottom: 10px;
+}
+
+i.post-detail.tag.tag-small {
+    font-size: 10pt;
+    line-height: 20px;
+    background: #efefef;
+    color: #999;
+}
+i.post-detail.tag.tag-small.tag-match {
+    color: #fff;
+    background: #00A2D9;
+}
+a{
+text-decoration: none;
+    font-family: "Source Sans Pro","Segoe UI Light","Arial",sans-serif;
+}
+i.post-detail.tag {
+padding: 1px 4px 2px;
+}
+
+[type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
+textarea:focus {
+  outline: none;
+  border: none !important;
+  background-color: none !important;
+  box-shadow: none !important;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  height: 100%;
+}
